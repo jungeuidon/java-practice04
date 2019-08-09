@@ -1,6 +1,6 @@
 package prob03;
 
-public class DropShip {
+public class DropShip extends Unit{
 	// 현재 위치
 	private int x;
 	private int y;
@@ -13,11 +13,17 @@ public class DropShip {
 		/* 선택된 대상을 내린다.*/ 
 	}
 	
-	void move(int x, int y) {
-		/* 지정된 위치로 이동 */
+	@Override
+	public void move() {
+		// TODO Auto-generated method stub
+		super.move();
 	}
 
-	void stop() {
-		/* 현재 위치에 정지 */
-	}	
+
+
+	@Override
+	public void stop() {
+		// TODO Auto-generated method stub
+		super.stop();
+	}
 }
